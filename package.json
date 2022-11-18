@@ -1,0 +1,22 @@
+{
+  "name": "sheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir dist && markdown-to-html --source src/index.md --output ./dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanDeveloper1111/Sheets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanDeveloper1111/Sheets/issues"
+  },
+  "homepage": "https://github.com/RomanDeveloper1111/Sheets#readme",
+  "dependencies": {
+    "markdown-to-html-cli": "^3.5.1"
+  }
+}
